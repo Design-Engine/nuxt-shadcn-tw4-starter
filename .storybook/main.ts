@@ -10,6 +10,7 @@ const config: StorybookConfig = {
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
     "@storybook/addon-a11y",
+    "@whitespace/storybook-addon-html",
   ],
   framework: {
     name: "@storybook-vue/nuxt",
