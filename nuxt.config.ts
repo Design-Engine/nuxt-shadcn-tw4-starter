@@ -3,7 +3,17 @@ import tailwindcss from "@tailwindcss/vite";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "shadcn-nuxt", "@nuxtjs/storybook"],
+  modules: [
+    "@nuxt/eslint",
+    "shadcn-nuxt",
+    "@nuxtjs/storybook",
+    [
+      "@nuxtjs/color-mode",
+      {
+        classSuffix: "",
+      },
+    ],
+  ],
   shadcn: {
     /**
      * Prefix for all the imported component

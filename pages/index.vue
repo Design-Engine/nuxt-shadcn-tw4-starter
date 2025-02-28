@@ -11,6 +11,6 @@ useHead({
 <template>
   <div>
     <h1 class="text-3xl font-bold underline">Homepage</h1>
-    <Button>Click me</Button>
+    <Button variant="default">Click me</Button>
   </div>
 </template>
